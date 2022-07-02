@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "titulo": "capricciosa",
+    "imagen": "./img/Capricciosa.jpg",
+    "descripcion": "Muy similar a la Quattro Stagioni es la pizza Capricciosa. Los ingredientes son los mismos, de hecho, normalmente la Capricciosa no tiene aceitunas",
+    "precio": " 2000"
+  },
+
+  {
+    "id": 2,
+    "titulo": "Diavola",
+    "imagen": "./img/Diavola.jpg",
+    "descripcion": "La Diavola es apta para los amantes de sabores fuertes ya que el protagonista aquí es el salami picante.",
+    "precio": " 1800"
+  },
+  {
+    "id": 3,
+    "titulo": "hawaiana",
+    "imagen": "./img/hawaiana.jpg",
+    "descripcion": "la piña es el protagonista de esta pizza su dulsor le aporta aun mas sabor.",
+    "precio": " 1900"
+  },
+  {
+    "id": 4,
+    "titulo": "Margherita",
+    "imagen": "./img/Margherita.jpg",
+    "descripcion": "la pizza margherita es sin duda la pizza preferida por los italianos.",
+    "precio": " 2200"
+  },
+  {
+    "id": 5,
+    "titulo": "Prosciuttofunghi",
+    "imagen": "./img/Prosciuttofunghi.jpg",
+    "descripcion": "La simplicidad reina también en esta pizza.",
+    "precio": " 1400"
+  },
+  {
+    "id": 6,
+    "titulo": "QuattroFormaggi",
+    "imagen": "./img/QuattroFormaggi.jpg",
+    "descripcion": "Tienes que ser un verdadero amante del queso para apreciar esta cremosa, deliciosa y atractiva pizza blancas",
+    "precio": " 1900"
+  }
+]

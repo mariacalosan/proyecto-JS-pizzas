@@ -1,0 +1,256 @@
+/*globales*/
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@300 & display=swap');
+
+html {
+  font-size: 90%;
+}
+
+body {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+/*fin de los estilos globales*/
+
+/*estilos para el menu*/
+.header {
+  z-index: 100;
+  background-color: #1E1E24;
+}
+
+.menu__cont {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #F58A07;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #2D3A3A;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #F58A07;
+  margin-right: 10px;
+}
+/*fin de  los estilos del menu*/
+
+/* landin page */
+.main {
+  /* margin-top: 95px; */
+}
+
+.section--index {
+      text-align: center;
+      margin-right: 5%;
+      margin-left: 5%;
+      padding: 5px;
+      margin-bottom: 5%;
+      background-color:#2D3A3A;
+      box-shadow: 0 6px 6px 0px #F58A07 ;
+      border-color: #F58A07;
+      border-radius: 10px ;
+      margin-top: 3%;
+
+}
+.section--index-div{
+  margin: 2%;
+}
+
+span{
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 4.5rem;
+  color: #F58A07;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.titulo-h5 {
+  font-size: 30px;
+  color: #F58A07;
+  text-align: center;
+}
+
+.products__title {
+  text-align: center;
+  margin-top: 95px;
+}
+
+.product__card {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 23%;
+}
+
+.card {
+  box-shadow: 5px 5px 15px 5px #F58A07;
+  background-color: #2D3A3A;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-text {
+  color: #e2d1d1;
+}
+
+.card__price {
+  color: aliceblue;
+}
+
+.btn {
+  background-color: #F58A07;
+  align-self: center;
+  color: white;
+}
+
+/* carrito */
+.carrito__titulo {
+  color: white;
+  text-align: center;
+}
+
+.cart-section {
+  padding: 20px;
+}
+
+.cart-container {
+  margin-top: 100px;
+  background-color: #1E1E24;
+  padding: 20px;
+  color: white;
+}
+
+.compra-finalizada {
+  text-align: center;
+}
+
+.datos-parrafo {
+  text-align: center;
+}
+
+.datos-cliente {
+  display: flex;
+  flex-direction: column;
+}
+
+.producto-carrito {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.car-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.total-carrito {
+  display: flex;
+  justify-content: center;
+}
+
+.total {
+  padding: 5px;
+  background-color: #F58A07;
+  border-radius: 5px;
+  margin: 0px 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact__secction__item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mensaje-final {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #1E1E24;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #F58A07;
+}
+.fa-brands{
+  color: #F58A07;
+  font-size: 18px;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #F58A07;
+}
