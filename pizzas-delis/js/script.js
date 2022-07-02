@@ -1,6 +1,6 @@
 let productos = [];
 
-fetch("./api.json")
+fetch("./pizzas-delis/api.json")
   .then((res) => res.json())
   .then((api) => {
     cargarProductos(api);
