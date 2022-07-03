@@ -43,6 +43,13 @@ const agregarAlCarrito = (indiceDelArrayProducto) => {
     actualizarStorage(cart);
     dibujarCarrito();
   }
+  Swal.fire({
+    position: "center",
+    icon: "success",
+    title: `Añadiste exitosamente ${productos[indiceDelArrayProducto].titulo} a tu carrito de compras`,
+    showConfirmButton: false,
+    timer: 1500
+  });
 };
 let carritoContainer = document.getElementById("cart-container");
 let total = 0;
@@ -79,9 +86,16 @@ const dibujarCarrito = () => {
 };
 
 const removeProduct = (indice) => {
-  cart.splice(indice, 1);
+  let productoEliminado = cart.splice(indice, 1);
   actualizarStorage(cart);
   dibujarCarrito();
+  Swal.fire({
+    position: "center",
+    icon: "success",
+    title: `Eliminaste exitosamente ${productoEliminado[0].titulo} de tu carrito de compras`,
+    showConfirmButton: false,
+    timer: 1500
+  });
 };
 
 const actualizarStorage = (cart) => {
